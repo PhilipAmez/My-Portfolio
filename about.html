@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Philip's Portfolio</title>
+    <title>Philip Amezuweh</title>
     <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
     <nav>
         <div class="logo">Philip Amezuweh</div>
-        <div class="pic"><img src="img/WIN_20241210_12_34_35_Pro.jpg" alt="" width="100" height="100" style="border: 1px; border-radius: 50px;"></div>
+        <div class="pic"><img src="img/089A0996.jpg" alt="" width="100" height="100" style="border: 1px; border-radius: 50px;"></div>
         <div class="menu-toggle" onclick="toggleMenu()">☰</div>
         <ul class="nav-links" id="navLinks">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="about.html" id="about">About</a></li>
           <li><a href="Portfolio.html">Portfolio</a></li>
         </ul>
       </nav>
-    <header style="background-color: rgb(12, 12, 51);">
+    <header style="background-image: url(img/089A0990.jpg);">
         <h1>About Me</h1>
         <p>Software Engineer | Gamer</p>
         <p>Building intuitive web solutions and creating immersive gaming experiences.</p>
@@ -27,14 +28,23 @@
         </div>
     </header>
     <section class="section">
-        <h1>About Me</h1>
-        <p>Hello! I'm Philip, a passionate software engineer and content creator who loves exploring new technologies and building creative projects.</p>
-        <p>I'm continuously learning, experimenting, and growing in the tech world—from web development to innovative digital solutions. While I’m still building my portfolio, I’m eager to share my journey, insights, and future projects.</p>
-        <p>Thanks for stopping by—feel free to connect and follow along!</p>
+        <h2>About Me</h2>
+        <div class="abt">
+        <div class="aboutpic">
+          <img src="img/089A0996.jpg" alt="" width="100%" height="100%">
+        </div>
+        <div class="me">
+          <span>Hello! I'm Philip, a passionate software engineer and content creator who loves exploring new technologies and building creative projects.</span><br><br>
+          <span>I'm continuously learning, experimenting, and growing in the tech world—from web development to innovative digital solutions. While I’m still building my portfolio, I’m eager to share my journey, insights, and future projects.</span><br><br>
+        <span>for stopping by—feel free to connect and follow along!</span>
+       </div>
+      </div> 
       </section>
     <footer>
+      <div class="footer">
         <p>&copy; 2025 Philip Amezuweh. All rights reserved.</p>
-    </footer>
+      </div>
+      </footer>
     <script src="basic.js"></script>
 </body>
 </html>
