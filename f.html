@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        background-image: url('https://thumbs.dreamstime.com/b/sunsets-pic-dusk-time-rose-leaf-s-very-beautiful-to-looks-enjoy-266507053.jpg');
+        background-repeat: no-repeat;
+       
+    }
+.myDiv {
+  height: 100%; /* Fixed height in pixels */
+  width: 100%;
+  display: flex;
+    flex-direction: column;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.percentageDiv {
+  height: 100%; /* 50% of parent's height */
+  width: 100%;
+  background-color: lightgreen;
+  border: 1px solid black;
+}
+
+.viewportDiv {
+  height: 100vh; /* Full viewport height */
+  width: 200px;
+  background-color: lightcoral;
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<div class="myDiv">
+  This is a div with a fixed height.
+    <p>It will not change size based on the viewport or parent element.</p> 
+        jdhhkjdwjkwhdwjdw
+        bdwhdbwdb
+</div>
+
+<div class="percentageDiv">
+  This div is 50% of its parent's height.
+</div>
+
+<div class="viewportDiv">
+  This div is the full height of the viewport.
+</div>
+
+</body>
+</html>
